@@ -1,0 +1,1 @@
+A calculation model to estimate the total revenue a user generates before churning. The model multiplies the average total trips per user by the average revenue per trip to determine the Customer Lifetime Value (CLV).
