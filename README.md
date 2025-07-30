@@ -18,14 +18,6 @@ This project analyzes driver behavior for a ride-sharing platform to understand 
 
 * **Tools:** Python (Pandas, Matplotlib, Seaborn).
 
-## How to Run:
-
-1.  **Clone the repository:** `git clone <repository_url>`
-
-2.  **Open the Jupyter Notebook:** `customer-lifetime-value-churn.ipynb` in Google Colab or your local Jupyter environment.
-
-3.  **Run all cells** to reproduce the analysis.
-
 ## Future Work:
 
 * Analyze longer data periods for more accurate LTV and churn trends.
