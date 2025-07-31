@@ -25,10 +25,11 @@ This project analyzes driver behavior for a ride-sharing platform to understand 
 * Develop predictive models for churn and optimize driver incentive programs.
 
 ## Relevant Graphs:
-<img width="723" height="448" alt="image" src="https://github.com/user-attachments/assets/ca61d661-0f5d-4df1-b74c-95318982d226" />
-<img width="723" height="448" alt="image" src="https://github.com/user-attachments/assets/3e16266b-8592-4ab5-a89c-9c43fb568f2b" />
-<img width="722" height="447" alt="image" src="https://github.com/user-attachments/assets/7dfd2452-79c4-49c7-ad6f-06ad8152a9d4" />
-
+<div align="center">
+  <img src="https://github.com/user-attachments/assets/ca61d661-0f5d-4df1-b74c-95318982d226" alt="Graph 1" width="32%" />
+  <img src="https://github.com/user-attachments/assets/3e16266b-8592-4ab5-a89c-9c43fb568f2b" alt="Graph 2" width="32%" />
+  <img src="https://github.com/user-attachments/assets/7dfd2452-79c4-49c7-ad6f-06ad8152a9d4" alt="Graph 3" width="32%" />
+</div>
 
 
 
