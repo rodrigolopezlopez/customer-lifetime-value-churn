@@ -23,3 +23,5 @@ This project analyzes driver behavior for a ride-sharing platform to understand 
 * Analyze longer data periods for more accurate LTV and churn trends.
 
 * Develop predictive models for churn and optimize driver incentive programs.
+
+<img width="723" height="448" alt="image" src="https://github.com/user-attachments/assets/ca61d661-0f5d-4df1-b74c-95318982d226" />
