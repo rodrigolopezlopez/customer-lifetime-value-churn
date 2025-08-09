@@ -20,6 +20,8 @@ This analysis focuses on extracting **key insights** into driver behavior. The m
 
 * **Data**: Driver and ride data were used, including timestamps, distance, duration, and "**prime time**."
 * **Methodology**: The analysis process included data cleaning, **LTV calculation**, **churn identification** (defined as **28 days of inactivity**), and **segmentation** of drivers by their average weekly rides.
+* **The LTV calculation used the following formula:**
+    * `LTV = Average fare per trip * Lifetime average trips * Lyft split profit`
 * **Tools**: The project was implemented using **Python** (with the **Pandas**, **Matplotlib**, and **Seaborn** libraries).
 
 ---
