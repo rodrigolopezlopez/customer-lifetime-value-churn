@@ -1,35 +1,42 @@
 # Customer Lifetime Value & Churn Analysis
 
-This project analyzes driver behavior for a ride-sharing platform to understand **Customer Lifetime Value (LTV)** and **driver churn**.
+Este proyecto analiza el comportamiento de los conductores de una plataforma de transporte para comprender el **Valor de por Vida del Cliente (LTV)** y la **tasa de abandono (churn)** de los conductores.
 
-## Key Insights:
+---
 
-* **Driver LTV:** Each new driver is estimated to generate **$132 USD** in profit for the platform before churning. This is based on an average fare of $13.84/trip, 48 trips per driver, and a 20% platform profit split.
+### **🎯 Key Highlights & Project Overview**
 
-* **Churn Rate:** Approximately **16.54%** of drivers churn, with an average tenure of **43 days**. Churning drivers typically show a **negative trend** in weekly ride activity before leaving.
+Este análisis se centra en extraer **insights clave** sobre el comportamiento de los conductores. Los hallazgos más importantes incluyen:
 
-* **Driver Engagement:** Most drivers are **occasional** (less than 20 rides/week) or **part-time** (20-40 rides/week). There's a strong correlation between lower engagement and higher churn, indicating a significant opportunity to increase overall rides by improving existing driver engagement.
+* **Driver LTV**: Cada nuevo conductor se estima que genera **$132 USD** en ganancias para la plataforma antes de abandonarla. Este cálculo se basa en un viaje promedio de $13.84, **48 viajes por conductor** y una división de ganancias del 20% para la plataforma.
+* **Churn Rate**: Aproximadamente el **16.54%** de los conductores abandonan la plataforma, con una permanencia promedio de **43 días**. Los conductores que se dan de baja suelen mostrar una **tendencia negativa** en su actividad de viajes semanales antes de irse.
+* **Driver Engagement**: La mayoría de los conductores son **ocasionales** (menos de 20 viajes/semana) o de **medio tiempo** (20-40 viajes/semana). Existe una fuerte correlación entre una **menor participación** y una **mayor tasa de abandono**, lo que indica una oportunidad significativa para aumentar los viajes generales mejorando la participación de los conductores existentes.
 
-## Analysis Details:
+---
 
-* **Data:** Driver and ride data (including timestamps, distance, duration, prime time).
+### **🛠️ Technical Approach**
 
-* **Methodology:** Data cleaning, LTV calculation, churn identification (28 days of inactivity), and driver segmentation by weekly ride average.
+#### **Análisis y Metodología**
 
-* **Tools:** Python (Pandas, Matplotlib, Seaborn).
+* **Datos**: Se utilizaron datos de conductores y viajes que incluyen sellos de tiempo (**timestamps**), distancia, duración y "**prime time**".
+* **Metodología**: El proceso de análisis incluyó limpieza de datos, **cálculo del LTV**, identificación del **churn** (definido como **28 días de inactividad**) y **segmentación** de los conductores por el promedio de viajes semanales.
+* **Herramientas**: El proyecto se implementó utilizando **Python** (con las bibliotecas **Pandas**, **Matplotlib** y **Seaborn**).
 
-## Future Work:
+---
 
-* Analyze longer data periods for more accurate LTV and churn trends.
+### **📈 Future Work**
 
-* Develop predictive models for churn and optimize driver incentive programs.
+El análisis inicial proporciona una base sólida, pero el trabajo futuro se centrará en las siguientes áreas para obtener una visión más completa:
 
-## Relevant Graphs:
+* **Análisis de Datos a Largo Plazo**: Analizar períodos de datos más largos para obtener **tendencias más precisas** de LTV y churn.
+* **Modelos Predictivos**: Desarrollar **modelos predictivos** para anticipar el churn y optimizar los programas de incentivos para los conductores.
+
+---
+
+### **Relevant Graphs**
+
 <div align="center">
   <img src="https://github.com/user-attachments/assets/ca61d661-0f5d-4df1-b74c-95318982d226" alt="Graph 1" width="32%" />
   <img src="https://github.com/user-attachments/assets/3e16266b-8592-4ab5-a89c-9c43fb568f2b" alt="Graph 2" width="32%" />
   <img src="https://github.com/user-attachments/assets/7dfd2452-79c4-49c7-ad6f-06ad8152a9d4" alt="Graph 3" width="32%" />
 </div>
-
-
-
